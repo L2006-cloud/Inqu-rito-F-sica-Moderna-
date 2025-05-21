@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Site do Lourenço</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #004080;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #004080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #003060;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lourenço João</h1>
+        <p>Estudante, Cristão, Empreendedor</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou um estudante universitário em Moçambique, apaixonado por ciência, fé cristã e inovação. Estou trabalhando em projetos como geleias naturais com meu avô, dispositivos para combater a poluição e conteúdo cristão online.</p>
+        </section>
+
+        <section>
+            <h2>Projetos</h2>
+            <ul>
+                <li>Marca NutriGold (geleias, sabões naturais, etc.)</li>
+                <li>Dispositivo anti-poluição para carros e chaminés</li>
+                <li>Canal "Bíblia e conduta cristã"</li>
+                <li>Iniciativas de evangelismo universitário</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <form>
+                <label>Nome:</label>
+                <input type="text" name="nome" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" required>
+
+                <label>Mensagem:</label>
+                <textarea name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Lourenço João. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
